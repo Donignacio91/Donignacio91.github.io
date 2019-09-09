@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    background-image: url(../assetes/Imagen_Satelital_del_Mundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    background-color: brown;
+    color: bisque;
+    min-height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.fondo{
+    font-size: 1.7rem;
+    color: bisque;
+    background-color: rgba(26, 25, 25, 0.514)
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 2.5fr 1fr 2.5fr;
+}
+.select1{
+    justify-content: center;
+    text-align: center;
+} 
+.select2{
+    justify-content: center;
+    text-align: center;
+   
+}
+main {
+    margin: 2rem;
+    min-height: 60vh;
+    color: bisque;
+}
+.showInfoPlus{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(240, 248, 255, 0.568)
+
+}
+.showInfoPlus {
+    justify-content: center;
+    text-align: center;
+}
+.flag1{
+    border: 1px solid rgba(0, 0, 0, 0.342);
+}
+.titulin{
+    font-size: 1.7rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.521)
+}
+.ulInfo{
+    color:rgba(0, 0, 0, 0.767)
+}
+.actualizar{
+    justify-content: center;
+    text-align: center;
+    margin-left:43%;
+}
+.btn{  
+    margin-top: 1%;
+    justify-content: center;
+    text-align: center;
+}
+.info1{
+    border: 1px solid rgba(0, 0, 0, 0.342);
+}
+.flag img{
+   max-width: 250px;
+   height: 125px;
+}
+.title{
+    font-weight: bold; 
+    margin: 0
+}
+
+
+.world{
+    display: block;
+    max-width: 300px;
+    height: 250px;
+    background-image: url(../assetes/BlankMap-World-Continents.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    margin-top: 3%;
+ }
+.ame{
+    background-image: url(../assetes/americas.svg.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    padding-bottom: 15%;
+    margin-top: 3%;
+}
+.eur{
+    background-image: url(../assetes/europe.svg.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    padding-bottom: 15%;
+    margin-top: 3%;
+ }
+.asi{
+    background-image: url(../assetes/1200px_Asia_orthographic_projection.svg.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    padding-bottom: 15%;
+    margin-top: 3%;
+}
+.afr{
+    background-image: url(../assetes/550pxAfricaorthographicprojection.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    padding-bottom: 15%;
+    margin-top: 3%;
+}
+.oce{
+    background-image: url(../assetes/oceania.svg.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    padding-bottom: 15%;
+    margin-top: 3%;
+}
+
+
+
+
+footer {
+    min-height: 15vh;
+    background-color: brown;
+    color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
